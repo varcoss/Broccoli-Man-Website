@@ -1,0 +1,60 @@
+
+
+.indexCenteredText
+{
+	text-align: center;
+	padding-top:50px;
+	font-size:5em;
+	color: white;
+	text-shadow: 10px 10px 10px black;
+	line-height: 30px;
+
+}
+
+  
+.leftTopText{  
+  padding-top:100px;
+  padding-left:60px;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 50px;
+
+	}
+  
+  @keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: .8;
+  }
+}
+
+audio{
+	padding-top:5em;
+	padding-left:2em;
+	}
+
+.fade-in-text {
+  animation: fade-in 5s ease-in;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fade-in {
+  animation: fade-in 2s ease-in;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+	  
+.bodyBackground{
+	background: linear-gradient(to top, #000000, black);
+	}
+	  
+.mainBackgroundIndex
+{
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-image: url(home_background.jpg);
+ }
+ 
+
